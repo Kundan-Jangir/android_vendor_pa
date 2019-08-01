@@ -15,6 +15,9 @@ add_lunch_combo pa_dora-userdebug
 add_lunch_combo pa_kagura-userdebug
 add_lunch_combo pa_keyaki-userdebug
 
+# ASUS MAX pro m1
+add_lunch_combo pa_X00T-userdebug
+
 # SDClang Environment Variables
 export SDCLANG_AE_CONFIG=vendor/pa/sdclang/sdclangAE.json
 export SDCLANG_CONFIG=vendor/pa/sdclang/sdclang.json
