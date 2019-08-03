@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 
 # Inherit from X00T device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, device/asus/X00T/device.mk)
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
