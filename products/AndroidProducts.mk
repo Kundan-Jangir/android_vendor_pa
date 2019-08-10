@@ -35,4 +35,4 @@
 
 # X00T
    PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/X00T/pa_X00T.mk 
+    $(LOCAL_DIR)/X00TD/pa_X00TD.mk 

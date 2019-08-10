@@ -15,7 +15,7 @@
 #
 
 # Grab APNs
-PRODUCT_COPY_FILES += device/asus/X00T/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES += device/asus/X00TD/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -24,17 +24,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 
 # Inherit from X00T device
-$(call inherit-product, device/asus/X00T/device.mk)
+$(call inherit-product, device/asus/X00TD/device.mk)
 
 PRODUCT_BRAND := asus
-PRODUCT_DEVICE := X00T
+PRODUCT_DEVICE := X00TD
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := pa_X00T
+PRODUCT_NAME := pa_X00TD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 TARGET_VENDOR := asus
-TARGET_VENDOR_PRODUCT_NAME := X00T
+TARGET_VENDOR_PRODUCT_NAME := X00TD
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="sdm660_64-user 9 PKQ1 1181 release-keys"
