@@ -52,3 +52,6 @@ PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.vendor.product.device \
     ro.vendor.product.model \
     ro.vendor.product.name
+    
+ # Paranoid Android platform
+include vendor/pa/main.mk
